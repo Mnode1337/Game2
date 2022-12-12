@@ -20,6 +20,10 @@ class Player:
         self.name = name
         self.all_cards = []
 
+    '''
+        :return all_cards list minus one card
+        the one that is pop is gone
+    '''
     def remove_one(self):
        return self.all_cards.pop(0)
 
